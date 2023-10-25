@@ -1,0 +1,23 @@
+.statistics {
+  background-color: #a2bab4;
+  width: 450px;
+  max-height: 150px;
+  color: #fff;
+  margin-left: 40px;
+}
+.title {
+  text-align: center;
+}
+.stat-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0;
+}
+.item {
+  background-color: #7b968b;
+  padding: 12px;
+  display: flex;
+  gap: 4px;
+}
