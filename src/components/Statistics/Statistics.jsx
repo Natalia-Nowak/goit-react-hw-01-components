@@ -29,9 +29,9 @@ function RenderStatistics(stats) {
 
 Statistics.propTypes = {
   title: PropTypes.string,
-  stats: PropTypes.string,
+  stats: PropTypes.number,
 };
 
 RenderStatistics.propTypes = {
-  stats: PropTypes.string,
+  stats: PropTypes.number,
 };
