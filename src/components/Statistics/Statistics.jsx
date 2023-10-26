@@ -1,4 +1,5 @@
 import './Statistics.css';
+import PropTypes from 'prop-types';
 
 export default function Statistics({ title, stats }) {
   if (title === null) {
@@ -25,3 +26,12 @@ function RenderStatistics(stats) {
     </ul>
   );
 }
+
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.string,
+};
+
+RenderStatistics.propTypes = {
+  stats: PropTypes.string,
+};
